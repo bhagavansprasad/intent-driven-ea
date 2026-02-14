@@ -1,0 +1,24 @@
+# =============================================================
+# AIOps Platform — Environment Variables Template
+# Copy to .env and fill in your values
+# NEVER commit .env to version control
+# =============================================================
+
+# Oracle DB (Docker)
+ORACLE_USER=system
+ORACLE_PASSWORD=your_oracle_password
+ORACLE_DSN=localhost:1521/FREEPDB1
+
+# Oracle Connection Pool
+ORACLE_POOL_MIN=2
+ORACLE_POOL_MAX=10
+ORACLE_POOL_INCREMENT=1
+
+# Gemini API
+GEMINI_API_KEY=your_gemini_api_key_here
+GEMINI_EMBEDDING_MODEL=gemini-embedding-001
+GEMINI_EMBEDDING_DIM=3072
+
+# Similarity Thresholds
+THRESHOLD_KNOWN=0.90
+THRESHOLD_RELATED=0.75

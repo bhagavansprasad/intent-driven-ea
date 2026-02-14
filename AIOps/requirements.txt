@@ -1,0 +1,21 @@
+# AIOps Semantic Error Intelligence Platform
+# Python dependencies
+
+# Oracle DB driver (thin mode — no Oracle Client needed)
+# Note: package name is 'oracledb' not 'python-oracledb'
+oracledb>=2.0.0
+
+# Gemini embedding API
+google-genai>=1.0.0
+
+# Config / env loading
+python-dotenv>=1.0.0
+
+# API layer (Phase 2)
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
